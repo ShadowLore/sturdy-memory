@@ -163,3 +163,12 @@ position:absolute;
     border-radius: 50%;
     z-index:99;
 }
+.recta{
+       border: 10px solid transparent; border-top: 20px solid #2F4538; width:5px;
+}
+.recta::after {
+    position: absolute; /* Абсолютное позиционирование */
+    left: 20px; bottom: -20px; /* Положение треугольника */
+    border: 10px solid transparent; /* Прозрачные границы */
+    border-top: 10px solid green; /* Добавляем треугольник */
+}
